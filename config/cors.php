@@ -1,4 +1,20 @@
 <?php
+/**
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
 
 return [
 
@@ -7,7 +23,7 @@ return [
     | Cross-Origin Resource Sharing (CORS) Configuration
     |--------------------------------------------------------------------------
     |
-    | Here you may configure your settings for cross-origin resource sharing
+    | Here you may configure your settings   for cross-origin resource sharing
     | or "CORS". This determines what cross-origin operations may execute
     | in web browsers. You are free to adjust these settings as needed.
     |
@@ -15,7 +31,7 @@ return [
     |
     */
 
-    'paths' => ['api/*'],
+    'paths' => ['*'],
 
     'allowed_methods' => ['*'],
 
@@ -29,6 +45,6 @@ return [
 
     'max_age' => 0,
 
-    'supports_credentials' => false,
+    'supports_credentials' => true,
 
 ];

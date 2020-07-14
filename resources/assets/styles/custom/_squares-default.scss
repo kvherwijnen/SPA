@@ -1,0 +1,116 @@
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.squares {
+  animation:     move-left-right 1s infinite;
+  @include linear-gradient($primary-states, $primary);
+
+  border-radius: 20%;
+
+  overflow:      hidden;
+
+  position:      absolute;
+
+  transition:    all 0.5s ease-out;
+
+  &-2 {
+    @include linear-gradient(#d4fa4c, #ff7736);
+  }
+
+  &-3 {
+    @include linear-gradient(#e9f8ae, #ffab7e);
+  }
+
+  &-4 {
+    @include linear-gradient(#efc7e0, #f6839b);
+  }
+
+  &-5 {
+    @include linear-gradient(#bff87a, #f3a053);
+  }
+
+  &-6 {
+    @include linear-gradient(#ac0e0e, #4b0112);
+  }
+
+  &-7 {
+    display: none;
+  }
+
+  &.square1 {
+    animation: move-left-right 4s infinite;
+    height:    300px;
+    left:      3%;
+    opacity:   0.5;
+    top:       -21%;
+    width:     300px;
+  }
+
+  &.square2 {
+    animation: move-left-right 6s infinite;
+    height:    400px;
+    opacity:   0.4;
+    right:     -5%;
+    top:       -12%;
+    width:     400px;
+  }
+
+  &.square3 {
+    animation: move-left-right 5s infinite;
+    bottom:    0;
+    height:    200px;
+    left:      -5%;
+    opacity:   0.1;
+    width:     200px;
+  }
+
+  &.square4 {
+    animation: move-left-right 10s infinite;
+    height:    100px;
+    opacity:   0.9;
+    right:     27%;
+    top:       70%;
+    width:     100px;
+  }
+
+  &.square5 {
+    animation: move-left-right 6s infinite;
+    bottom:    29%;
+    height:    250px;
+    left:      32%;
+    opacity:   0.1;
+    width:     250px;
+  }
+
+  &.square6 {
+    animation: move-left-right 9s infinite;
+    height:    80px;
+    left:      10%;
+    opacity:   0.8;
+    top:       35%;
+    width:     80px;
+  }
+
+  &.square7 {
+    animation: move-left-right 3s infinite;
+    bottom:    0%;
+    height:    300px;
+    opacity:   0.1;
+    right:     -5%;
+    width:     300px;
+  }
+}

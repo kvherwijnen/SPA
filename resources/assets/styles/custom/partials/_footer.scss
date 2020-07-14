@@ -1,0 +1,70 @@
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+footer {
+  bottom:   0;
+  position: absolute;
+  width:    100%;
+}
+
+.footer {
+  background-color: $footer-background;
+  box-shadow:       0 0 10px rgba(0, 0, 0, 0.15);
+  padding-bottom:   5px; // for webview
+  .el-tabs {
+    &__item {
+      box-sizing:     border-box;
+      color:          rgba($yiq-text-light, .4) !important;
+      display:        inline-block;
+      font-size:      19px !important;
+      font-weight:    500 !important;
+      height:         44px !important;
+      letter-spacing: .3px;
+      line-height:    20px !important;
+      list-style:     none;
+      padding:        5px 0 !important;
+      position:       relative;
+      transition:     all .4s ease;
+
+      small {
+        display:   block;
+        font-size: 10px;
+      }
+
+      &:hover {
+        color:      rgba($yiq-text-light, .7) !important;
+        transition: all .4s ease;
+      }
+    }
+
+    &__active-bar {
+      display: none;
+    }
+
+    &__nav-wrap {
+      &::after {
+        display: none !important;
+      }
+    }
+
+    &--bottom,
+    &__header.is-bottom {
+      margin-bottom: $safe-area-bottom !important;
+      margin-top:    0 !important;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+language: php
+
+php:
+  - '7.3'
+
+before_script:
+  - composer self-update
+  - composer install --no-interaction
+  - cp .env.example .env
+  - nvm install 14.0
+  - npm install npm@latest -g
+  - npm install
+  - php artisan key:generate
+
+script:
+  - npm run production

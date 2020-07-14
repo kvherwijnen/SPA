@@ -1,0 +1,38 @@
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+/*!
+ *   Import transition styles
+ */
+@import 'transitions/slide';
+@import 'transitions/fade';
+@import "transitions/shake";
+@import "transitions/bounce";
+@import "transitions/zoom";
+
+/*!
+ *   Import components styles
+ */
+@import 'Hue';
+@import "Camera";
+@import "bar";
+@import "network";
+
+/*!
+ *   Import the specific pages styles
+ */
+@import "Authentication";

@@ -1,22 +1,12 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+Route::get('/hue/auth', '\App\Http\Controllers\HueController@auth');
+Route::get('/hue/auth/receive', '\App\Http\Controllers\HueController@receive');
+//Route::view('/', 'main');
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/{any?}', function() {
+    return view('main');
+})->where('any', '^(?!api\/)[\/\w\.-]*');

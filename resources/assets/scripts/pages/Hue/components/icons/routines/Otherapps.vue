@@ -1,0 +1,23 @@
+<template>
+    <svg height="32px" version="1.1" viewBox="0 0 32 32" width="32px" xmlns="http://www.w3.org/2000/svg">
+        <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+        <title>routinesOtherapps</title>
+        <desc>Created with Sketch.</desc>
+        <defs></defs>
+        <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+            <g :fill="checked ? color : '#FFFFFF'">
+                <path d="M7,13 C8.657,13 10,14.343 10,16 C10,17.657 8.657,19 7,19 C5.343,19 4,17.657 4,16 C4,14.343 5.343,13 7,13 Z M16,13 C17.657,13 19,14.343 19,16 C19,17.657 17.657,19 16,19 C14.343,19 13,17.657 13,16 C13,14.343 14.343,13 16,13 Z M25,13 C26.657,13 28,14.343 28,16 C28,17.657 26.657,19 25,19 C23.343,19 22,17.657 22,16 C22,14.343 23.343,13 25,13 Z"/>
+            </g>
+        </g>
+    </svg>
+</template>
+
+<script>
+    export default {
+        name: "NAME_HERE",
+        props: {
+            checked: Boolean,
+            color: String
+        }
+    };
+</script>

@@ -1,0 +1,67 @@
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.checkmark {
+  background-color: rgba(35, 35, 35, 0.95);
+  border:           1.5px solid $text-muted;
+  border-radius:    100%;
+  color:            $text-muted;
+  font-size:        16px;
+  height:           45px;
+  left:             0;
+  line-height:      41px;
+  text-align:       center;
+  top:              0;
+  transition:       all 1.2s linear;
+  width:            45px;
+}
+
+.scene {
+  cursor:              pointer;
+  display:             block;
+  font-size:           22px;
+  margin:              5px 0;
+  position:            relative;
+  transition:          all 1.2s linear;
+  -moz-user-select:    none;
+  -ms-user-select:     none;
+  -webkit-user-select: none;
+  user-select:         none;
+
+  input {
+    cursor:   pointer;
+    height:   0;
+    opacity:  0;
+    position: absolute;
+    width:    0;
+
+    &:checked ~ .checkmark {
+      background-color: lighten($primary, 10%);
+      border-color:     white;
+      color:            white;
+      transition:       all 1.2s linear;
+    }
+  }
+
+  &:hover {
+    .checkmark {
+      background-color: rgba(35, 35, 35, 0.95);
+      transition:       all .8s linear;
+    }
+  }
+}
+

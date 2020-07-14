@@ -1,0 +1,45 @@
+.card {
+  background:    rgba(202, 184, 255, 0.08);
+  border:        0;
+  box-shadow:    $box-shadow;
+  margin-bottom: 30px;
+  position:      relative;
+  width:         100%;
+
+  .card-body {
+    padding: 15px;
+
+    &.table-full-width {
+      padding-left:  0;
+      padding-right: 0;
+    }
+
+    .card-title {
+      color:          $white;
+      font-weight:    $font-weight-light;
+      margin-bottom:  .75rem;
+      text-transform: inherit;
+    }
+
+    .card-description, .card-category {
+      color: rgba($white, 0.6);
+    }
+
+  }
+
+  .card-header {
+    border:  0;
+
+    color:   rgba($white, 0.8);
+    padding: 15px 15px 0;
+
+    .card-title {
+      color:       $white;
+      font-weight: 100;
+    }
+  }
+}
+
+.card-body {
+  padding: $card-spacer-y;
+}

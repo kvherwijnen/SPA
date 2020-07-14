@@ -1,0 +1,14 @@
+.fixed-plugin {
+  background:    rgba(0, 0, 0, .3);
+  border-radius: 8px 0 0 8px;
+  position:      fixed;
+  right:         0;
+  text-align:    center;
+  top:           130px;
+  width:         64px;
+  z-index:       1031;
+
+  h5 {
+    margin: 10px;
+  }
+}
