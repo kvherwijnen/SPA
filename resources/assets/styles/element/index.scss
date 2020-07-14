@@ -1,0 +1,89 @@
+// Import our custom Element-UI theme variables
+@import "variables";
+
+// // Import the Element-UI original theme chalk
+// Uncommand only components which are used
+// so we reduce compiled application size
+
+@import "~element-theme-chalk/src/base";
+//@import "~element-theme-chalk/src/pagination";
+//@import "~element-theme-chalk/src/dialog";
+//@import "~element-theme-chalk/src/autocomplete";
+@import "~element-theme-chalk/src/dropdown";
+@import "~element-theme-chalk/src/dropdown-menu";
+@import "~element-theme-chalk/src/dropdown-item";
+//@import "~element-theme-chalk/src/menu";
+//@import "~element-theme-chalk/src/submenu";
+//@import "~element-theme-chalk/src/menu-item";
+//@import "~element-theme-chalk/src/menu-item-group";
+@import "~element-theme-chalk/src/input";
+@import "~element-theme-chalk/src/input-number";
+//@import "~element-theme-chalk/src/radio";
+//@import "~element-theme-chalk/src/radio-group";
+//@import "~element-theme-chalk/src/radio-button";
+@import "~element-theme-chalk/src/checkbox";
+@import "~element-theme-chalk/src/checkbox-button";
+@import "~element-theme-chalk/src/checkbox-group";
+@import "~element-theme-chalk/src/switch";
+@import "~element-theme-chalk/src/select";
+@import "~element-theme-chalk/src/button";
+@import "~element-theme-chalk/src/button-group";
+//@import "~element-theme-chalk/src/table";
+//@import "~element-theme-chalk/src/table-column";
+//@import "~element-theme-chalk/src/date-picker";
+//@import "~element-theme-chalk/src/time-select";
+//@import "~element-theme-chalk/src/time-picker";
+//@import "~element-theme-chalk/src/popover";
+//@import "~element-theme-chalk/src/tooltip";
+//@import "~element-theme-chalk/src/message-box";
+//@import "~element-theme-chalk/src/breadcrumb";
+//@import "~element-theme-chalk/src/breadcrumb-item";
+@import "~element-theme-chalk/src/form";
+@import "~element-theme-chalk/src/form-item";
+@import "~element-theme-chalk/src/tabs";
+@import "~element-theme-chalk/src/tab-pane";
+//@import "~element-theme-chalk/src/tag";
+//@import "~element-theme-chalk/src/tree";
+@import "~element-theme-chalk/src/alert";
+//@import "~element-theme-chalk/src/notification";
+//@import "~element-theme-chalk/src/slider";
+@import "~element-theme-chalk/src/loading";
+//@import "~element-theme-chalk/src/row";
+//@import "~element-theme-chalk/src/col";
+//@import "~element-theme-chalk/src/upload";
+//@import "~element-theme-chalk/src/progress";
+@import "~element-theme-chalk/src/spinner";
+//@import "~element-theme-chalk/src/message";
+//@import "~element-theme-chalk/src/badge";             // TODO: Use its awesome
+//@import "~element-theme-chalk/src/card";
+//@import "~element-theme-chalk/src/rate";
+@import "~element-theme-chalk/src/steps";
+@import "~element-theme-chalk/src/step";
+//@import "~element-theme-chalk/src/carousel";
+//@import "~element-theme-chalk/src/scrollbar";
+//@import "~element-theme-chalk/src/carousel-item";
+@import "~element-theme-chalk/src/collapse";
+//@import "~element-theme-chalk/src/collapse-item";
+//@import "~element-theme-chalk/src/cascader";
+//@import "~element-theme-chalk/src/color-picker";
+//@import "~element-theme-chalk/src/transfer";
+//@import "~element-theme-chalk/src/container";
+//@import "~element-theme-chalk/src/header";
+//@import "~element-theme-chalk/src/aside";
+//@import "~element-theme-chalk/src/main";
+//@import "~element-theme-chalk/src/footer";
+//@import "~element-theme-chalk/src/timeline";
+//@import "~element-theme-chalk/src/timeline-item";
+//@import "~element-theme-chalk/src/link";
+//@import "~element-theme-chalk/src/divider";
+@import "~element-theme-chalk/src/image";
+//@import "~element-theme-chalk/src/calendar";
+//@import "~element-theme-chalk/src/backtop";
+//@import "~element-theme-chalk/src/infinite-scroll";
+//@import "~element-theme-chalk/src/page-header";
+//@import "~element-theme-chalk/src/cascader-panel";
+@import "~element-theme-chalk/src/avatar";
+//@import "~element-theme-chalk/src/drawer";
+//@import "~element-theme-chalk/src/popconfirm";
+
+//@import "~element-theme-chalk/src";              //=> The complete package(!)

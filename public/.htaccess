@@ -2,6 +2,9 @@
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
     </IfModule>
+    <IfModule mod_headers.c>
+        Header set Access-Control-Allow-Origin "*"
+    </IfModule>
 
     RewriteEngine On
 
@@ -14,8 +17,29 @@
     RewriteCond %{REQUEST_URI} (.+)/$
     RewriteRule ^ %1 [L,R=301]
 
-    # Send Requests To Front Controller...
+    # Handle Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
+
+    # GZIP
+    ## allows you to have certain browsers uncompress information on the fly
+    AddEncoding gzip .gz
+    ## serve gzip .css files if they exist and the client accepts gzip
+    RewriteCond %{HTTP:Accept-encoding} gzip
+    RewriteCond %{REQUEST_FILENAME}\.gz -s
+    RewriteRule ^(.*)\.css $1\.css\.gz [QSA]
+    ## serve gzip .js files if they exist and the client accepts gzip
+    RewriteCond %{HTTP:Accept-encoding} gzip
+    RewriteCond %{REQUEST_FILENAME}\.gz -s
+    RewriteRule ^(.*)\.js $1\.js\.gz [QSA]
+    ## serve gzip .html files if they exist and the client accepts gzip
+    RewriteCond %{HTTP:Accept-encoding} gzip
+    RewriteCond %{REQUEST_FILENAME}\.gz -s
+    RewriteRule ^(.*)\.html $1\.html\.gz [QSA]
+    ## serve correct content types, and prevent mod_deflate double gzip
+    RewriteRule \.css\.gz$ - [T=text/css,E=no-gzip:1,E=is_gzip:1]
+    RewriteRule \.js\.gz$ - [T=text/javascript,E=no-gzip:1,E=is_gzip:1]
+    RewriteRule \.html\.gz$ - [T=text/html,E=no-gzip:1,E=is_gzip:1]
+    Header set Content-Encoding "gzip" env=is_gzip
 </IfModule>

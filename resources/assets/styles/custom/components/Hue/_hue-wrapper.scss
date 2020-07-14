@@ -1,0 +1,248 @@
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+.shake {
+  display:  block;
+  position: relative;
+
+  .after {
+    animation:     scaleIn .15s ease-in-out 0s 1 normal forwards;
+    background:    rgb(245, 245, 245);
+    border:        2px solid rgba(229, 229, 229, 0.7);
+    border-radius: 100%;
+    box-shadow:    2px 3px 4px rgba(66, 66, 66, .75);
+    height:        20px;
+    left:          -3px;
+    position:      absolute;
+    top:           -8px;
+    width:         20px;
+    z-index:       2;
+
+    &::after {
+      color:       #494949;
+      content:     "\2718";
+      font-weight: 600;
+      margin:      0 3px;
+    }
+  }
+}
+
+// TODO: SCSS compatible
+button.btn-hue {
+  background:    none;
+  border:        none;
+  border-radius: 7px;
+  padding:       0;
+  position:      relative;
+  text-align:    left;
+  transition:    all 0.3s ease;
+  width:         100%;
+
+  &:disabled {
+    a {
+      cursor: default !important;
+    }
+  }
+
+  &:not(:disabled) {
+    &:active, &:focus {
+      padding:    5px 10px 15px 10px;
+      transition: all 0.3s ease;
+
+      .hue {
+        &-content {
+          min-height: 32px;
+          transition: all 0.3s ease;
+
+          &-icon {
+            height:     32px;
+            max-width:  40px;
+            transition: all 0.3s ease;
+          }
+
+          &-toggle {
+            align-self: center;
+            position:   relative;
+            width:      36px;
+
+            &-label {
+              height: 16px;
+            }
+          }
+
+          &-text {
+            font-size:  12px;
+            margin:     5px -5px 0 5px !important;
+            transition: all 0.3s ease;
+
+            &-name {
+              line-height: 12px;
+              transition:  all 0.3s ease;
+            }
+          }
+        }
+
+        &-slider {
+          &-container {
+            height:     15px;
+            transition: all 0.3s ease;
+          }
+
+          &-progress {
+            height:     15px;
+            transition: all 0.3s ease;
+          }
+
+          &-dot {
+            height:     18px;
+            transition: all 0.3s ease;
+            width:      18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.hue {
+  border-radius: 7px;
+  box-shadow:    0 3px 6px rgba(0, 0, 0, .20), 0 3px 6px rgba(0, 0, 0, .32);
+  padding:       15px;
+  position:      relative;
+  transition:    all 0.3s ease;
+
+  &-scene {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius:    10px;
+    cursor:           pointer;
+    display:          inline-block;
+    height:           75px;
+    margin:           5px;
+    overflow:         hidden;
+    padding:          10px;
+    text-overflow:    ellipsis;
+    vertical-align:   top;
+    width:            150px;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    &.on {
+      background-color: rgba(0, 155, 0, 0.3);
+    }
+  }
+
+  &-container {
+    border-radius: 7px;
+    min-height:    45px;
+    position:      relative;
+    transition:    all 0.3s ease;
+    width:         100%;
+    z-index:       2;
+  }
+
+  &-content {
+    display:    flex;
+    min-height: 40px;
+    transition: all 0.3s ease;
+
+    &-toggle {
+      align-self: center;
+      position:   relative;
+      transition: all 0.3s ease;
+      width:      40px;
+    }
+
+    &-icon {
+      align-self: center;
+      display:    inline-block;
+      flex:       0 0 32px;
+      height:     32px;
+      max-width:  32px;
+      position:   relative;
+    }
+
+    &-text {
+      align-self: center;
+      font-size:  14px;
+      margin:     0 -5px 0 16px;
+      transition: all 0.3s ease;
+      width:      90%;
+
+      &-name {
+        font-weight:   600;
+        line-height:   18px;
+        overflow:      hidden;
+        text-overflow: ellipsis;
+        transition:    all 0.3s ease;
+        white-space:   nowrap;
+
+        .reachable {
+          color: $warning;
+        }
+      }
+    }
+  }
+}
+
+
+.hue-content-toggle-checkbox {
+  display: none;
+  height:  0;
+  width:   0;
+
+  &:checked {
+    + .hue-content-toggle-label {
+      &:after {
+        background: rgba(35, 35, 35, 0.95);
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+        left:       100%;
+        transform:  translate(-100%, -50%);
+      }
+    }
+  }
+}
+
+.hue-content-toggle-label {
+  border-radius: 100px;
+  cursor:        pointer;
+  display:       block;
+  height:        18px;
+  position:      relative;
+  text-indent:   -9999px;
+  width:         40px;
+
+  &:active {
+    &:after {
+      width: 25px;
+    }
+  }
+
+  &:after {
+    background:    rgba(35, 35, 35, 0.84);
+    border-radius: 90px;
+    box-shadow:    0 0 3px rgba(0, 0, 0, 0.5);
+    content:       "";
+    height:        18px;
+    left:          0;
+    position:      absolute;
+    top:           50%;
+    transform:     translateY(-50%);
+    transition:    all 0.3s ease;
+    width:         18px;
+  }
+}

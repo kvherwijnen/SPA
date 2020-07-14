@@ -1,0 +1,214 @@
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.camera {
+  &-wrapper {
+    background:      $background-black;
+    bottom:          0;
+    display:         flex;
+    flex-direction:  column;
+    height:          100vh;
+    justify-content: space-between;
+    left:            0;
+    position:        fixed;
+    right:           0;
+    top:             0;
+    width:           100%;
+    z-index:         1040;
+
+    & canvas, video {
+      animation:  scaleIn .25s ease-in-out 0s 1 normal both;
+      bottom:     0;
+      height:     100%;
+      object-fit: cover;
+      position:   absolute;
+      right:      0;
+      top:        0;
+      width:      100%;
+    }
+
+    video {
+      filter:    flipH(1);
+      transform: scaleX(-1);
+    }
+
+    .filter-transition {
+      transition:          1s filter linear, 1s -webkit-filter linear;
+      transition-property: width, left, transform, box-shadow, filter, -webkit-filter;
+    }
+
+    .grayscale {
+      filter: grayscale(100%);
+    }
+
+    .blur {
+      filter: blur(10px);
+    }
+
+    .hue-rotate {
+      filter: hue-rotate(90deg);
+
+      &2 {
+        filter: hue-rotate(180deg);
+      }
+
+      &3 {
+        filter: hue-rotate(270deg);
+      }
+    }
+
+    .contrast {
+      filter: contrast(200%);
+    }
+
+    .brightness {
+      filter: brightness(50%);
+    }
+
+    .sepia {
+      filter: sepia(60%);
+    }
+
+    .saturate {
+      filter: saturate(30%);
+    }
+
+    .invert {
+      filter: invert(80%);
+    }
+  }
+
+  &-header {
+    padding: calc(20px + var(--sat)) 0 0 0;
+    z-index: 1040;
+
+    .brand {
+      color:           $white;
+      display:         flex;
+      font-size:       $font-paragraph;
+      justify-content: space-between;
+      position:        relative;
+      text-shadow:     0 3px 6px rgba(0, 0, 0, .6), 0 3px 6px rgba(0, 0, 0, .65);
+      text-transform:  capitalize;
+    }
+
+    &-item {
+      color:  $yiq-text-light;
+      height: 50px;
+      left:   0;
+      margin: 0;
+      right:  0;
+      width:  50px;
+
+
+      &.l {
+        margin-left: calc(25px + var(--sal));
+      }
+
+      &.r {
+        margin-right: calc(25px + var(--sar));
+      }
+    }
+  }
+
+  &-footer {
+    padding: 0 0 calc(20px + var(--sab)) 0;
+    z-index: 1040;
+
+    &-item {
+      color:  $yiq-text-light;
+      height: 50px;
+      left:   0;
+      margin: 0;
+      right:  0;
+      width:  50px;
+
+      &.l {
+        margin-left: calc(25px + var(--sal));
+      }
+
+      &.r {
+        margin-right: calc(25px + var(--sar));
+      }
+    }
+  }
+
+  &-button {
+    background:    white;
+    border:        none;
+    border-radius: 100%;
+    color:         $black-darker;
+    max-width:     50px;
+    min-width:     50px;
+    padding-top:   3px;
+    position:      relative;
+
+    &.capture {
+      &::after {
+        border:        2.5px solid $black-darker;
+        border-radius: 100%;
+        bottom:        3px;
+        content:       '\21BB';
+        font-size:     40px;
+        left:          3px;
+        line-height:   35px;
+        position:      absolute;
+        right:         3px;
+        top:           3px;
+        transition:    .3s;
+      }
+    }
+
+    &::after {
+      border:        2.5px solid $black-darker;
+      border-radius: 100%;
+      bottom:        3px;
+      content:       '';
+      left:          3px;
+      position:      absolute;
+      right:         3px;
+      top:           3px;
+      transition:    .3s;
+    }
+
+    &:active {
+      &::after {
+        border:        4px solid $black-darker;
+        border-radius: 100%;
+        bottom:        3px;
+        content:       '';
+        left:          3px;
+        position:      absolute;
+        right:         3px;
+        top:           3px;
+        transition:    .3s;
+      }
+    }
+  }
+
+}
+
+.footer-button {
+  background: transparent !important;
+  border:     0;
+  margin:     0;
+  padding:    0;
+
+  &:disabled svg {
+    color: rgba($yiq-text-light, .5);
+  }
+}

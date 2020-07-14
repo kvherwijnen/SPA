@@ -1,0 +1,74 @@
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+body {
+  background-image: url("./../../../img/dots.webp");
+  background-size:  contain;
+}
+
+.wrapper {
+  overflow-x: hidden !important;
+  position:   relative;
+
+  .child-wrapper {
+    bottom:     0;
+    left:       0;
+    overflow:   hidden !important;
+    position:   fixed;
+    right:      0;
+    top:        0;
+    transition: all .5s cubic-bezier(.55, 0, 0, 1);
+
+    .container {
+      &-static {
+        height:  100% !important;
+        padding: calc(55px + var(--sat)) calc(15px + var(--sar)) calc(47px + var(--sab)) calc(15px + var(--sal)) !important;
+        width:   100% !important;
+
+        .container {
+          height:     100% !important;
+          overflow-x: hidden !important;
+          overflow-y: auto !important;
+        }
+      }
+    }
+  }
+}
+
+
+.container-overlay {
+  background:      $background-black;
+  bottom:          0;
+  display:         flex;
+  flex-direction:  column;
+  height:          100vh;
+  justify-content: space-between;
+  left:            0;
+  padding-top:     calc(10px + var(--sat));
+  position:        fixed;
+  right:           0;
+  top:             0;
+  width:           100%;
+  z-index:         1090;
+
+  .container {
+    height:     100% !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    padding:    0 calc(35px + var(--sar)) var(--sab) calc(35px + var(--sal));
+  }
+}

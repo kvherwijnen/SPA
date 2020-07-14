@@ -1,0 +1,28 @@
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+// Overwrite the Bootstrap framework with custom styles
+@import "~bootstrap/scss/functions";
+@import "partials/variables";
+@import "partials/mixins";
+
+//// Bootstrap components
+@import "custom/bootstrap";
+
+// Custom components
+@import "partials/custom";
+@import "vuesax/custom";

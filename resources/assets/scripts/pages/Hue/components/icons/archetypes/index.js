@@ -1,0 +1,46 @@
+export default 
+{
+    Bollard: () => import('./Bollard'),
+    Ceilinground: () => import('./Ceilinground'),
+    Ceilingsquare: () => import('./Ceilingsquare'),
+    Desklamp: () => import('./Desklamp'),
+    Flexiblelamp: () => import('./Flexiblelamp'),
+    Doublespot: () => import('./Doublespot'),
+    Floorlantern: () => import('./Floorlantern'),
+    Floorshade: () => import('./Floorshade'),
+    Floorspot: () => import('./Floorspot'),
+    Hueiris: () => import('./Hueiris'),
+    Pendantlong: () => import('./Pendantlong'),
+    Pendantround: () => import('./Pendantround'),
+    Recessedceiling: () => import('./Recessedceiling'),
+    Recessedfloor: () => import('./Recessedfloor'),
+    Singlespot: () => import('./Singlespot'),
+    Tableshade: () => import('./Tableshade'),
+    Tablewash: () => import('./Tablewash'),
+    Walllantern: () => import('./Walllantern'),
+    Wallshade: () => import('./Wallshade'),
+    Wallspot: () => import('./Wallspot')
+};
+
+export const archetypesMap = [
+    'bollard',
+    'ceilinground',
+    'ceilingsquare',
+    'desklamp',
+    'flexiblelamp',
+    'doublespot',
+    'floorlantern',
+    'floorshade',
+    'floorspot',
+    'hueiris',
+    'pendantlong',
+    'pendantround',
+    'recessedceiling',
+    'recessedfloor',
+    'singlespot',
+    'tableshade',
+    'tablewash',
+    'walllantern',
+    'wallshade',
+    'wallspot'
+];

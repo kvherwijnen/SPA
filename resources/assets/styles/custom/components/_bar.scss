@@ -1,0 +1,52 @@
+/*!
+* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+*
+* Copyright (c) 2020
+* All Rights Reserved
+* Licensed use only
+*
+* This product is part of the SheepCompany Incorporated
+*
+*
+* LICENSE BY:
+* Artificial Intelligence :: Sheep-AI.com
+* More information: LICENSE.txt
+*
+* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+
+.bar {
+  border-top: 1px solid $apple-dark-theme-tint;
+  color:      $yiq-text-light;
+  left:       0;
+  position:   fixed;
+  right:      0;
+  width:      100vw;
+
+  &-top {
+    background-color: $footer-background;
+
+    border-bottom:    1px solid $apple-dark-theme-tint;
+    font-size:        120%;
+    line-height:      100%;
+    padding:          10px 0 10px 15px;
+  }
+
+  &-item {
+    background-color: $footer-background;
+
+    border-bottom:    1px solid $apple-dark-theme-tint;
+    padding:          5px 10px;
+  }
+
+  &-footer {
+    padding-top: 10px;
+    text-align:  center;
+
+    .company_name {
+      color:          $text-muted;
+      text-transform: uppercase;
+    }
+  }
+
+}

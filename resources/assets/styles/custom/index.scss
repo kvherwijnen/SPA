@@ -1,0 +1,37 @@
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+:root {
+  --sab:         env(safe-area-inset-bottom);
+  --sal:         env(safe-area-inset-left);
+  --sar:         env(safe-area-inset-right);
+  --sat:         env(safe-area-inset-top);
+  --scrollbarBG: none;
+  --thumbBG:     rgba(78, 78, 78, 0.55);
+}
+
+@import './../element/variables';
+
+@import "functions";
+@import "partials";
+
+
+@import "squares-default";
+@import "squares-blue";
+
+@import "components";
+
+@import "pages";

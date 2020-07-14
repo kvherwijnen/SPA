@@ -3,7 +3,8 @@
 namespace App\Exceptions;
 
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
-use Illuminate\Auth\AuthenticationException;
+use Illuminate\Http\Request;
+use Symfony\Component\HttpFoundation\Response;
 use Throwable;
 
 class Handler extends ExceptionHandler
@@ -30,28 +31,48 @@ class Handler extends ExceptionHandler
     /**
      * Report or log an exception.
      *
-     * @param  \Throwable  $exception
+     * @param Throwable $exception
+     *
      * @return void
      *
-     * @throws \Exception
+     * @throws Throwable $exception
      */
     public function report(Throwable $exception)
     {
         parent::report($exception);
     }
 
+    public function shouldReport(Throwable $exception)
+    {
+        return;
+    }
+
     /**
      * Render an exception into an HTTP response.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Throwable  $exception
-     * @return \Symfony\Component\HttpFoundation\Response
+     * @param Request   $request
+     * @param Throwable $exception
      *
-     * @throws \Throwable
+     * @return Response
+     *
+     * @throws Throwable $exception
      */
     public function render($request, Throwable $exception)
     {
+        // This will replace our 404 response with
+        // a JSON response.
+        if ($exception instanceof ModelNotFoundException) {
+            return response()->json([
+                'error' => 'Resource not found'
+            ], 404);
+        }
+
         return parent::render($request, $exception);
+    }
+
+    public function renderForConsole($output, Throwable $exception)
+    {
+        return;
     }
 
 }

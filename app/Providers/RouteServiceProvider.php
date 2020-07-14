@@ -46,8 +46,9 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->mapWebRoutes();
 
-        //
+
     }
+
 
     /**
      * Define the "web" routes for the application.

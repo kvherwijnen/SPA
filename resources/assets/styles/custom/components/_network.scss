@@ -1,0 +1,42 @@
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.network-alert {
+  bottom:   calc(60px + var(--sab));
+  left:     50%;
+  position: absolute;
+  z-index:  1020;
+
+  > .content {
+    border-radius: 15px;
+    box-shadow:    $--box-shadow-dark;
+    color:         white;
+    font-size:     90%;
+    font-weight:   bold;
+    left:          -50%;
+    padding:       3px 15px;
+    position:      relative;
+
+    &-connected {
+      background: $success;
+    }
+
+    &-disconnected {
+      background: $danger;
+    }
+  }
+}

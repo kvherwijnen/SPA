@@ -1,0 +1,91 @@
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.error {
+  line-height: 1.4;
+  margin:      auto;
+  max-width:   520px;
+  text-align:  center;
+  width:       100%;
+}
+
+.error .error-emoji {
+  height: 140px;
+}
+
+.error .error-emoji h1 {
+  font-size:   190px;
+  font-weight: 700;
+  margin:      0;
+}
+
+.error .error-emoji h1 > span {
+  background-size:   cover;
+  display:           inline-block;
+  height:            130px;
+  -ms-transform:     scale(1.4);
+  -webkit-transform: scale(1.4);
+  transform:         scale(1.4);
+  width:             130px;
+  z-index:           -1;
+}
+
+.error-404 h1 > span {
+  background-image: url('/../../assets/img/emoji-404.png') !important;
+}
+
+.error-500 h1 > span {
+  background-image: url('/../../assets/img/emoji-500.png') !important;
+}
+
+.error-503 h1 > span {
+  background-image:  url('/../../assets/img/emoji-503.png') !important;
+  height:            165px !important;
+  -ms-transform:     scale(1);
+  -webkit-transform: scale(1);
+  transform:         scale(1);
+  width:             165px !important;
+}
+
+.error h2 {
+  font-size:      27px;
+  font-weight:    700;
+  margin:         0;
+  text-transform: uppercase;
+}
+
+.error p {
+  color:       #a7a7a7;
+  font-weight: 300;
+}
+
+.error a:hover {
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 767px) {
+  .error .error-emoji {
+    height: 115px;
+  }
+  .error .error-emoji h1 {
+    font-size: 86px;
+  }
+  .error .error-emoji h1 > span {
+    height: 86px;
+    width:  86px;
+  }
+}

@@ -1,0 +1,78 @@
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+@import 'signin-apple';
+@import 'mute-button';
+
+.auth-wrapper {
+  max-height: 30px;
+  max-width:  450px;
+  transition: max-height 1s ease-out;
+  width:      100%;
+
+  &.swipe-up {
+    height:             500px;
+    max-height:         800px;
+    -moz-transition:    max-height 1s ease-in;
+    -o-transition:      max-height 1s ease-in;
+    -webkit-transition: max-height 1s ease-in;
+    transition:         max-height 1s ease-in;
+  }
+
+  & .auth {
+    &-logo {
+      color:         $yiq-text-light;
+      font-size:     35px;
+      font-weight:   200;
+      margin-bottom: 35px;
+      text-align:    center;
+
+      strong {
+        font-weight: 600;
+      }
+    }
+
+    &-content {
+      .btn-outline-white {
+        background:    none !important;
+        border:        1.5px solid $yiq-text-light !important;
+        border-radius: 5px !important;
+        transition:    background-color .3s linear;
+
+        &:hover {
+          background: rgba($yiq-text-light, .85) !important;
+          color:      $black-darker !important;
+          transition: background-color .3s linear;
+        }
+      }
+
+      .el-input__inner {
+        border:        1.5px solid white !important;
+        border-radius: 5px !important;
+        color:         white !important;
+
+        &::placeholder {
+          color: rgba($yiq-text-light, .8) !important;
+        }
+      }
+    }
+
+    &-footer {
+      color: $text-muted;
+    }
+  }
+}

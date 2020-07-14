@@ -1,0 +1,85 @@
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.square {
+  background-size: 100%;
+  border-radius:   20%;
+  position:        absolute;
+  transition:      0.5s ease-out;
+}
+
+.square-1 {
+  background-image: url("./../../img/square1.webp");
+  height:           300px;
+  opacity:          0.8;
+  right:            150px;
+  top:              175px;
+  width:            300px;
+}
+
+.square-2 {
+  background-image: url("./../../img/square2.webp");
+  height:           120px;
+  opacity:          0.9;
+  right:            390px;
+  top:              310px;
+  width:            120px;
+}
+
+.square-3 {
+  background-image: url("./../../img/square3.webp");
+  height:           200px;
+  opacity:          0.3;
+  right:            400px;
+  top:              -50px;
+  width:            200px;
+}
+
+.square-4 {
+  background-image: url("./../../img/square4.webp");
+  height:           200px;
+  right:            -50px;
+  top:              525px;
+  width:            200px;
+}
+
+.square-5 {
+  background-image: url("./../../img/square4.webp");
+  height:           150px;
+  opacity:          0.5;
+  right:            470px;
+  top:              500px;
+  width:            150px;
+}
+
+.square-6 {
+  background-image: url("./../../img/square6.webp");
+  height:           70px;
+  opacity:          0.9;
+  right:            20px;
+  top:              105px;
+  width:            70px;
+}
+
+.square-7 {
+  background-image: url("./../../img/square5.webp");
+  height:           200px;
+  left:             -100px;
+  opacity:          .4;
+  top:              100px;
+  width:            200px;
+}
