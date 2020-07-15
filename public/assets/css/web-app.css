@@ -1,0 +1,99 @@
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+
+:root {
+  --sab: env(safe-area-inset-bottom);
+  --sal: env(safe-area-inset-left);
+  --sar: env(safe-area-inset-right);
+  --sat: env(safe-area-inset-top);
+  --scrollbarBG: none;
+  --thumbBG: rgba(78, 78, 78, 0.55);
+}
+
+html {
+  max-height: 100%;
+  outline: none !important;
+  overflow: hidden !important;
+  width: 100%;
+}
+
+html body {
+  -webkit-font-smoothing: antialiased;
+  height: 100vh !important;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden !important;
+  position: relative;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  scrollbar-width: thin;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+html body ::-webkit-scrollbar {
+  width: 11px;
+}
+
+html body ::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+html body ::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border: 3px solid var(--scrollbarBG);
+  border-radius: 6px;
+}
+
+html body .body-wrapper {
+  height: 100vh !important;
+  position: fixed !important;
+  width: 100vw !important;
+}
+
+html .cursor-pointer {
+  cursor: pointer;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  background-color: transparent !important;
+  border: 1px solid unset !important;
+  -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+  color: white !important;
+  font-size: unset !important;
+  line-height: unset !important;
+  -webkit-text-fill-color: white !important;
+  -webkit-text-size-adjust: unset !important;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.el-range-input {
+  background: unset !important;
+  padding-top: 2px !important;
+}
+

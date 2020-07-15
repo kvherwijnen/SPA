@@ -1,0 +1,2184 @@
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+:root {
+  --sab: env(safe-area-inset-bottom);
+  --sal: env(safe-area-inset-left);
+  --sar: env(safe-area-inset-right);
+  --sat: env(safe-area-inset-top);
+  --scrollbarBG: none;
+  --thumbBG: rgba(78, 78, 78, 0.55);
+}
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+/*     brand Colors              */
+
+/* navbar color */
+
+/* Transition
+-------------------------- */
+
+/* Color
+-------------------------- */
+
+/* 53a8ff */
+
+/* 66b1ff */
+
+/* 79bbff */
+
+/* 8cc5ff */
+
+/* a0cfff */
+
+/* b3d8ff */
+
+/* c6e2ff */
+
+/* d9ecff */
+
+/* ecf5ff */
+
+/* Link
+-------------------------- */
+
+/* Border
+-------------------------- */
+
+/* Fill
+-------------------------- */
+
+/* Typography
+-------------------------- */
+
+/* Size
+-------------------------- */
+
+/* z-index
+-------------------------- */
+
+/* Disable base
+-------------------------- */
+
+/* Icon
+-------------------------- */
+
+/* Checkbox
+-------------------------- */
+
+/* Radio
+-------------------------- */
+
+/* Select
+-------------------------- */
+
+/* Alert
+-------------------------- */
+
+/* MessageBox
+-------------------------- */
+
+/* Message
+-------------------------- */
+
+/* Notification
+-------------------------- */
+
+/* Input
+-------------------------- */
+
+/* Cascader
+-------------------------- */
+
+/* Group
+-------------------------- */
+
+/* Tab
+-------------------------- */
+
+/* Button
+-------------------------- */
+
+/* cascader
+-------------------------- */
+
+/* Switch
+-------------------------- */
+
+/* Dialog
+-------------------------- */
+
+/* Table
+-------------------------- */
+
+/* Pagination
+-------------------------- */
+
+/* Popup
+-------------------------- */
+
+/* Popover
+-------------------------- */
+
+/* Tooltip
+-------------------------- */
+
+/* Tag
+-------------------------- */
+
+/* Tree
+-------------------------- */
+
+/* Dropdown
+-------------------------- */
+
+/* Badge
+-------------------------- */
+
+/* Card
+--------------------------*/
+
+/* Slider
+--------------------------*/
+
+/* Steps
+--------------------------*/
+
+/* Menu
+--------------------------*/
+
+/* Rate
+--------------------------*/
+
+/* DatePicker
+--------------------------*/
+
+/* Loading
+--------------------------*/
+
+/* Scrollbar
+--------------------------*/
+
+/* Carousel
+--------------------------*/
+
+/* Collapse
+--------------------------*/
+
+/* Transfer
+--------------------------*/
+
+/* Header
+  --------------------------*/
+
+/* Footer
+--------------------------*/
+
+/* Main
+--------------------------*/
+
+/* Timeline
+--------------------------*/
+
+/* Backtop
+--------------------------*/
+
+/* Link
+--------------------------*/
+
+/* Calendar
+--------------------------*/
+
+/* Form
+-------------------------- */
+
+/* Avatar
+--------------------------*/
+
+/* Break-point
+--------------------------*/
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+body {
+  background-image: url(/images/dots.webp?97e8e4c844875a6a76843683d53740fc);
+  background-size: contain;
+}
+
+.wrapper {
+  overflow-x: hidden !important;
+  position: relative;
+}
+
+.wrapper .child-wrapper {
+  bottom: 0;
+  left: 0;
+  overflow: hidden !important;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: all 0.5s cubic-bezier(0.55, 0, 0, 1);
+}
+
+.wrapper .child-wrapper .container-static {
+  height: 100% !important;
+  padding: calc(55px + var(--sat)) calc(15px + var(--sar)) calc(47px + var(--sab)) calc(15px + var(--sal)) !important;
+  width: 100% !important;
+}
+
+.wrapper .child-wrapper .container-static .container {
+  height: 100% !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+.container-overlay {
+  background: #000000;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  left: 0;
+  padding-top: calc(10px + var(--sat));
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1090;
+}
+
+.container-overlay .container {
+  height: 100% !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  padding: 0 calc(35px + var(--sar)) var(--sab) calc(35px + var(--sal));
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+  color: #ffffff;
+  outline: none !important;
+}
+
+button,
+button:active,
+button:active {
+  outline: none !important;
+}
+
+.navbar {
+  margin-top: calc((env(safe-area-inset-top) / 6) * 5);
+  width: 100%;
+  z-index: 1030;
+}
+
+.navbar-wrapper {
+  align-items: center;
+  display: flex;
+}
+
+.navbar-text {
+  color: #ffffff;
+}
+
+.navbar .icon {
+  -webkit-filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.7));
+  margin-left: -5px;
+}
+
+.navbar .navbar-brand {
+  color: #ffffff;
+  font-size: 1rem;
+  padding-bottom: .3125rem;
+  padding-top: .3125rem;
+  position: relative;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.6), 0 3px 6px rgba(0, 0, 0, 0.65);
+  text-transform: capitalize;
+}
+
+.navbar .navbar-brand span {
+  font-weight: 600;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:active,
+.navbar .navbar-brand:focus {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.border-dashed {
+  background: none !important;
+  border: 2px dashed rgba(255, 255, 255, 0.6) !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.border-dashed:hover {
+  border-color: #fff !important;
+  color: #fff !important;
+}
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.footer {
+  background-color: rgba(5, 4, 15, 0.65);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  padding-bottom: 5px;
+}
+
+.footer .el-tabs__item {
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.4) !important;
+  display: inline-block;
+  font-size: 19px !important;
+  font-weight: 500 !important;
+  height: 44px !important;
+  letter-spacing: .3px;
+  line-height: 20px !important;
+  list-style: none;
+  padding: 5px 0 !important;
+  position: relative;
+  transition: all .4s ease;
+}
+
+.footer .el-tabs__item small {
+  display: block;
+  font-size: 10px;
+}
+
+.footer .el-tabs__item:hover {
+  color: rgba(255, 255, 255, 0.7) !important;
+  transition: all .4s ease;
+}
+
+.footer .el-tabs__active-bar {
+  display: none;
+}
+
+.footer .el-tabs__nav-wrap::after {
+  display: none !important;
+}
+
+.footer .el-tabs--bottom,
+.footer .el-tabs__header.is-bottom {
+  margin-bottom: calc((env(safe-area-inset-top) / 3) * 2) !important;
+  margin-top: 0 !important;
+}
+
+.btn-logout {
+  border-radius: 0 !important;
+  margin: 0 !important;
+  width: 100%;
+}
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.squares {
+  -webkit-animation: move-left-right 1s infinite;
+          animation: move-left-right 1s infinite;
+  background: #ba54f5;
+  /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(0deg, #ba54f5, #ff15a3);
+  /* Standard syntax */
+  border-radius: 20%;
+  overflow: hidden;
+  position: absolute;
+  transition: all 0.5s ease-out;
+}
+
+.squares-2 {
+  background: #d4fa4c;
+  /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(0deg, #d4fa4c, #ff7736);
+  /* Standard syntax */
+}
+
+.squares-3 {
+  background: #e9f8ae;
+  /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(0deg, #e9f8ae, #ffab7e);
+  /* Standard syntax */
+}
+
+.squares-4 {
+  background: #efc7e0;
+  /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(0deg, #efc7e0, #f6839b);
+  /* Standard syntax */
+}
+
+.squares-5 {
+  background: #bff87a;
+  /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(0deg, #bff87a, #f3a053);
+  /* Standard syntax */
+}
+
+.squares-6 {
+  background: #ac0e0e;
+  /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(0deg, #ac0e0e, #4b0112);
+  /* Standard syntax */
+}
+
+.squares-7 {
+  display: none;
+}
+
+.squares.square1 {
+  -webkit-animation: move-left-right 4s infinite;
+          animation: move-left-right 4s infinite;
+  height: 300px;
+  left: 3%;
+  opacity: 0.5;
+  top: -21%;
+  width: 300px;
+}
+
+.squares.square2 {
+  -webkit-animation: move-left-right 6s infinite;
+          animation: move-left-right 6s infinite;
+  height: 400px;
+  opacity: 0.4;
+  right: -5%;
+  top: -12%;
+  width: 400px;
+}
+
+.squares.square3 {
+  -webkit-animation: move-left-right 5s infinite;
+          animation: move-left-right 5s infinite;
+  bottom: 0;
+  height: 200px;
+  left: -5%;
+  opacity: 0.1;
+  width: 200px;
+}
+
+.squares.square4 {
+  -webkit-animation: move-left-right 10s infinite;
+          animation: move-left-right 10s infinite;
+  height: 100px;
+  opacity: 0.9;
+  right: 27%;
+  top: 70%;
+  width: 100px;
+}
+
+.squares.square5 {
+  -webkit-animation: move-left-right 6s infinite;
+          animation: move-left-right 6s infinite;
+  bottom: 29%;
+  height: 250px;
+  left: 32%;
+  opacity: 0.1;
+  width: 250px;
+}
+
+.squares.square6 {
+  -webkit-animation: move-left-right 9s infinite;
+          animation: move-left-right 9s infinite;
+  height: 80px;
+  left: 10%;
+  opacity: 0.8;
+  top: 35%;
+  width: 80px;
+}
+
+.squares.square7 {
+  -webkit-animation: move-left-right 3s infinite;
+          animation: move-left-right 3s infinite;
+  bottom: 0%;
+  height: 300px;
+  opacity: 0.1;
+  right: -5%;
+  width: 300px;
+}
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.square {
+  background-size: 100%;
+  border-radius: 20%;
+  position: absolute;
+  transition: 0.5s ease-out;
+}
+
+.square-1 {
+  background-image: url(/images/square1.webp?26abd930946fe5e27d76812618797871);
+  height: 300px;
+  opacity: 0.8;
+  right: 150px;
+  top: 175px;
+  width: 300px;
+}
+
+.square-2 {
+  background-image: url(/images/square2.webp?63c047b27792dfe1ea72c8a1e25016ab);
+  height: 120px;
+  opacity: 0.9;
+  right: 390px;
+  top: 310px;
+  width: 120px;
+}
+
+.square-3 {
+  background-image: url(/images/square3.webp?27637ff93b2d337a507d5dfdffa04c05);
+  height: 200px;
+  opacity: 0.3;
+  right: 400px;
+  top: -50px;
+  width: 200px;
+}
+
+.square-4 {
+  background-image: url(/images/square4.webp?575c72c64d4bb6eabe07bcc9154963ac);
+  height: 200px;
+  right: -50px;
+  top: 525px;
+  width: 200px;
+}
+
+.square-5 {
+  background-image: url(/images/square4.webp?575c72c64d4bb6eabe07bcc9154963ac);
+  height: 150px;
+  opacity: 0.5;
+  right: 470px;
+  top: 500px;
+  width: 150px;
+}
+
+.square-6 {
+  background-image: url(/images/square6.webp?5f59444de130465e2a7f0d32f6217c86);
+  height: 70px;
+  opacity: 0.9;
+  right: 20px;
+  top: 105px;
+  width: 70px;
+}
+
+.square-7 {
+  background-image: url(/images/square5.webp?2d81c6a76f77733141dfb162d3a0cc22);
+  height: 200px;
+  left: -100px;
+  opacity: .4;
+  top: 100px;
+  width: 200px;
+}
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+/*!
+ *   Import transition styles
+ */
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.slide-right-enter-active,
+.slide-right-leave-active,
+.slide-left-enter-active,
+.slide-left-leave-active,
+.slide-up-enter-active,
+.slide-up-leave-active {
+  position: absolute;
+  transition: all 1000ms;
+  will-change: transform;
+}
+
+.slide-right-enter {
+  opacity: 0;
+  transform: translate3d(-100%, 0, 0);
+}
+
+.slide-right-leave-active {
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
+}
+
+.slide-up-enter {
+  opacity: 0;
+  transform: translate3d(0, 200%, 0);
+}
+
+.slide-up-leave-active {
+  opacity: 0;
+  transform: translate3d(0, 200%, 0);
+}
+
+.slide-left-enter {
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
+}
+
+.slide-left-leave-active {
+  opacity: 0;
+  transform: translate3d(-100%, 0, 0);
+}
+
+.list-enter,
+.list-leave-to {
+  opacity: 0;
+}
+
+.list-enter {
+  transform: translateX(-50vw);
+}
+
+.list-leave-to {
+  transform: translateX(50vw);
+}
+
+.list-enter-active {
+  transition: opacity 0.6s linear, transform 1s cubic-bezier(0.68, -0.12, 0, 1.18);
+}
+
+.list-leave-active {
+  transition: opacity 0.6s linear, transform 1s cubic-bezier(0.68, -0.12, 0, 1.18);
+}
+
+.list-move {
+  transition: all .5s ease-in-out;
+}
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .5s ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: translate(2px, 1px) rotate(0deg);
+  }
+
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    -webkit-transform: translate(0px, 2px) rotate(0deg);
+  }
+
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    -webkit-transform: translate(2px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  90% {
+    -webkit-transform: translate(2px, 2px) rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+.shake {
+  -webkit-animation-duration: 0.8s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: shake;
+  -webkit-animation-timing-function: linear;
+  -webkit-transform-origin: 50% 50%;
+}
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.bounce-enter-active {
+  -webkit-animation: bounce-in .5s;
+          animation: bounce-in .5s;
+}
+
+.bounce-leave-active {
+  animation: bounce-in .5s reverse;
+}
+
+@-webkit-keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.zoom-enter-active,
+.zoom-leave-active {
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-name: zoom;
+          animation-name: zoom;
+}
+
+.zoom-leave-active {
+  animation-direction: reverse;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoom {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/*!
+ *   Import components styles
+ */
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.shake {
+  display: block;
+  position: relative;
+}
+
+.shake .after {
+  -webkit-animation: scaleIn .15s ease-in-out 0s 1 normal forwards;
+          animation: scaleIn .15s ease-in-out 0s 1 normal forwards;
+  background: whitesmoke;
+  border: 2px solid rgba(229, 229, 229, 0.7);
+  border-radius: 100%;
+  box-shadow: 2px 3px 4px rgba(66, 66, 66, 0.75);
+  height: 20px;
+  left: -3px;
+  position: absolute;
+  top: -8px;
+  width: 20px;
+  z-index: 2;
+}
+
+.shake .after::after {
+  color: #494949;
+  content: "\2718";
+  font-weight: 600;
+  margin: 0 3px;
+}
+
+button.btn-hue {
+  background: none;
+  border: none;
+  border-radius: 7px;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+button.btn-hue:disabled a {
+  cursor: default !important;
+}
+
+button.btn-hue:not(:disabled):active,
+button.btn-hue:not(:disabled):focus {
+  padding: 5px 10px 15px 10px;
+  transition: all 0.3s ease;
+}
+
+button.btn-hue:not(:disabled):active .hue-content,
+button.btn-hue:not(:disabled):focus .hue-content {
+  min-height: 32px;
+  transition: all 0.3s ease;
+}
+
+button.btn-hue:not(:disabled):active .hue-content-icon,
+button.btn-hue:not(:disabled):focus .hue-content-icon {
+  height: 32px;
+  max-width: 40px;
+  transition: all 0.3s ease;
+}
+
+button.btn-hue:not(:disabled):active .hue-content-toggle,
+button.btn-hue:not(:disabled):focus .hue-content-toggle {
+  align-self: center;
+  position: relative;
+  width: 36px;
+}
+
+button.btn-hue:not(:disabled):active .hue-content-toggle-label,
+button.btn-hue:not(:disabled):focus .hue-content-toggle-label {
+  height: 16px;
+}
+
+button.btn-hue:not(:disabled):active .hue-content-text,
+button.btn-hue:not(:disabled):focus .hue-content-text {
+  font-size: 12px;
+  margin: 5px -5px 0 5px !important;
+  transition: all 0.3s ease;
+}
+
+button.btn-hue:not(:disabled):active .hue-content-text-name,
+button.btn-hue:not(:disabled):focus .hue-content-text-name {
+  line-height: 12px;
+  transition: all 0.3s ease;
+}
+
+button.btn-hue:not(:disabled):active .hue-slider-container,
+button.btn-hue:not(:disabled):focus .hue-slider-container {
+  height: 15px;
+  transition: all 0.3s ease;
+}
+
+button.btn-hue:not(:disabled):active .hue-slider-progress,
+button.btn-hue:not(:disabled):focus .hue-slider-progress {
+  height: 15px;
+  transition: all 0.3s ease;
+}
+
+button.btn-hue:not(:disabled):active .hue-slider-dot,
+button.btn-hue:not(:disabled):focus .hue-slider-dot {
+  height: 18px;
+  transition: all 0.3s ease;
+  width: 18px;
+}
+
+.hue {
+  border-radius: 7px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.32);
+  padding: 15px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.hue-scene {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  height: 75px;
+  margin: 5px;
+  overflow: hidden;
+  padding: 10px;
+  text-overflow: ellipsis;
+  vertical-align: top;
+  width: 150px;
+}
+
+.hue-scene:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hue-scene.on {
+  background-color: rgba(0, 155, 0, 0.3);
+}
+
+.hue-container {
+  border-radius: 7px;
+  min-height: 45px;
+  position: relative;
+  transition: all 0.3s ease;
+  width: 100%;
+  z-index: 2;
+}
+
+.hue-content {
+  display: flex;
+  min-height: 40px;
+  transition: all 0.3s ease;
+}
+
+.hue-content-toggle {
+  align-self: center;
+  position: relative;
+  transition: all 0.3s ease;
+  width: 40px;
+}
+
+.hue-content-icon {
+  align-self: center;
+  display: inline-block;
+  flex: 0 0 32px;
+  height: 32px;
+  max-width: 32px;
+  position: relative;
+}
+
+.hue-content-text {
+  align-self: center;
+  font-size: 14px;
+  margin: 0 -5px 0 16px;
+  transition: all 0.3s ease;
+  width: 90%;
+}
+
+.hue-content-text-name {
+  font-weight: 600;
+  line-height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.hue-content-text-name .reachable {
+  color: #ff8d72;
+}
+
+.hue-content-toggle-checkbox {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+.hue-content-toggle-checkbox:checked + .hue-content-toggle-label:after {
+  background: rgba(35, 35, 35, 0.95);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  left: 100%;
+  transform: translate(-100%, -50%);
+}
+
+.hue-content-toggle-label {
+  border-radius: 100px;
+  cursor: pointer;
+  display: block;
+  height: 18px;
+  position: relative;
+  text-indent: -9999px;
+  width: 40px;
+}
+
+.hue-content-toggle-label:active:after {
+  width: 25px;
+}
+
+.hue-content-toggle-label:after {
+  background: rgba(35, 35, 35, 0.84);
+  border-radius: 90px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  content: "";
+  height: 18px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+  width: 18px;
+}
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.hue-slider-container {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.32);
+  height: 20px;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.hue-slider {
+  background: #777777;
+  border-radius: 3px 3px 5px 5px;
+  overflow: hidden;
+}
+
+.hue-slider-overlay {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 3px 3px 5px 5px;
+  height: 20px;
+  position: absolute;
+  width: 100%;
+}
+
+.hue-slider-progress {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
+  height: 20px;
+  padding-right: 3px;
+  position: relative;
+  transition: background-color linear 0.3s;
+  width: calc(25% - 1px);
+  z-index: 1;
+}
+
+.hue-slider-dot-container {
+  height: 40px;
+  padding: 12px 5px 18px 18px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  z-index: 2;
+}
+
+.hue-slider-dot {
+  background: rgba(35, 35, 35, 0.95);
+  border-radius: 50%;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  height: 22px;
+  left: 52%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 22px;
+}
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+button.btn-hue-light {
+  background: none;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 5px;
+  max-height: 100px;
+  min-height: 100px;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  transition: all 0.3s ease;
+  width: 100px;
+}
+
+button.btn-hue-light:active,
+button.btn-hue-light:focus,
+button.btn-hue-light.checked {
+  border: 2px solid white;
+  transition: all 0.3s ease;
+}
+
+button.btn-hue-light:active .hue-container,
+button.btn-hue-light:focus .hue-container,
+button.btn-hue-light.checked .hue-container {
+  box-shadow: none;
+}
+
+button.btn-hue-light .box {
+  -webkit-animation: scaleIn .15s ease-in-out 0s 1 normal forwards;
+          animation: scaleIn .15s ease-in-out 0s 1 normal forwards;
+  border-radius: 100%;
+  height: 20px;
+  left: -5px;
+  position: absolute;
+  top: -8px;
+  width: 20px;
+  z-index: 10;
+}
+
+button.btn-hue-light .box-checked {
+  -webkit-animation: scaleIn .15s ease-in-out 0s 1 normal forwards;
+          animation: scaleIn .15s ease-in-out 0s 1 normal forwards;
+  background: whitesmoke;
+  border: 2px solid rgba(229, 229, 229, 0.7);
+  box-shadow: 2px 3px 4px rgba(66, 66, 66, 0.75);
+}
+
+button.btn-hue-light .box-checked::after {
+  color: #494949;
+  content: "\2713";
+  font-weight: 600;
+  margin: 0 1px;
+}
+
+button.btn-hue-light .hue {
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  height: 96px;
+  justify-content: space-between;
+  padding: 5px;
+  width: 100px;
+}
+
+button.btn-hue-light .hue-container {
+  background: linear-gradient(to right, #ffdc69 0%, #fde8bd 100%);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.32);
+  display: inline-block;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+button.btn-hue-light .hue-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+button.btn-hue-light .hue-top-reachable {
+  height: 20px;
+  max-width: 20px;
+  padding-top: 3px;
+}
+
+button.btn-hue-light .hue-top-icon {
+  height: 36px;
+  max-width: 36px;
+  padding-right: 5px;
+}
+
+button.btn-hue-light .hue-text {
+  font-size: 12px;
+  padding-left: 5px;
+  transition: all 0.3s ease;
+}
+
+button.btn-hue-light .hue-text-name {
+  font-weight: 600;
+  line-break: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  width: 83px;
+}
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.checkmark {
+  background-color: rgba(35, 35, 35, 0.95);
+  border: 1.5px solid #6c757d;
+  border-radius: 100%;
+  color: #6c757d;
+  font-size: 16px;
+  height: 45px;
+  left: 0;
+  line-height: 41px;
+  text-align: center;
+  top: 0;
+  transition: all 1.2s linear;
+  width: 45px;
+}
+
+.scene {
+  cursor: pointer;
+  display: block;
+  font-size: 22px;
+  margin: 5px 0;
+  position: relative;
+  transition: all 1.2s linear;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.scene input {
+  cursor: pointer;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  width: 0;
+}
+
+.scene input:checked ~ .checkmark {
+  background-color: #ff48b7;
+  border-color: white;
+  color: white;
+  transition: all 1.2s linear;
+}
+
+.scene:hover .checkmark {
+  background-color: rgba(35, 35, 35, 0.95);
+  transition: all .8s linear;
+}
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.camera-wrapper {
+  background: #000000;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1040;
+}
+
+.camera-wrapper canvas,
+.camera-wrapper video {
+  -webkit-animation: scaleIn .25s ease-in-out 0s 1 normal both;
+          animation: scaleIn .25s ease-in-out 0s 1 normal both;
+  bottom: 0;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.camera-wrapper video {
+  -webkit-filter: flipH(1);
+          filter: flipH(1);
+  transform: scaleX(-1);
+}
+
+.camera-wrapper .filter-transition {
+  transition: 1s filter linear, 1s -webkit-filter linear;
+  transition-property: width, left, transform, box-shadow, filter, -webkit-filter;
+}
+
+.camera-wrapper .grayscale {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.camera-wrapper .blur {
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
+
+.camera-wrapper .hue-rotate {
+  -webkit-filter: hue-rotate(90deg);
+          filter: hue-rotate(90deg);
+}
+
+.camera-wrapper .hue-rotate2 {
+  -webkit-filter: hue-rotate(180deg);
+          filter: hue-rotate(180deg);
+}
+
+.camera-wrapper .hue-rotate3 {
+  -webkit-filter: hue-rotate(270deg);
+          filter: hue-rotate(270deg);
+}
+
+.camera-wrapper .contrast {
+  -webkit-filter: contrast(200%);
+          filter: contrast(200%);
+}
+
+.camera-wrapper .brightness {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
+
+.camera-wrapper .sepia {
+  -webkit-filter: sepia(60%);
+          filter: sepia(60%);
+}
+
+.camera-wrapper .saturate {
+  -webkit-filter: saturate(30%);
+          filter: saturate(30%);
+}
+
+.camera-wrapper .invert {
+  -webkit-filter: invert(80%);
+          filter: invert(80%);
+}
+
+.camera-header {
+  padding: calc(20px + var(--sat)) 0 0 0;
+  z-index: 1040;
+}
+
+.camera-header .brand {
+  color: #ffffff;
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  position: relative;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.6), 0 3px 6px rgba(0, 0, 0, 0.65);
+  text-transform: capitalize;
+}
+
+.camera-header-item {
+  color: #ffffff;
+  height: 50px;
+  left: 0;
+  margin: 0;
+  right: 0;
+  width: 50px;
+}
+
+.camera-header-item.l {
+  margin-left: calc(25px + var(--sal));
+}
+
+.camera-header-item.r {
+  margin-right: calc(25px + var(--sar));
+}
+
+.camera-footer {
+  padding: 0 0 calc(20px + var(--sab)) 0;
+  z-index: 1040;
+}
+
+.camera-footer-item {
+  color: #ffffff;
+  height: 50px;
+  left: 0;
+  margin: 0;
+  right: 0;
+  width: 50px;
+}
+
+.camera-footer-item.l {
+  margin-left: calc(25px + var(--sal));
+}
+
+.camera-footer-item.r {
+  margin-right: calc(25px + var(--sar));
+}
+
+.camera-button {
+  background: white;
+  border: none;
+  border-radius: 100%;
+  color: #1a1f35;
+  max-width: 50px;
+  min-width: 50px;
+  padding-top: 3px;
+  position: relative;
+}
+
+.camera-button.capture::after {
+  border: 2.5px solid #1a1f35;
+  border-radius: 100%;
+  bottom: 3px;
+  content: '\21BB';
+  font-size: 40px;
+  left: 3px;
+  line-height: 35px;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  transition: .3s;
+}
+
+.camera-button::after {
+  border: 2.5px solid #1a1f35;
+  border-radius: 100%;
+  bottom: 3px;
+  content: '';
+  left: 3px;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  transition: .3s;
+}
+
+.camera-button:active::after {
+  border: 4px solid #1a1f35;
+  border-radius: 100%;
+  bottom: 3px;
+  content: '';
+  left: 3px;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  transition: .3s;
+}
+
+.footer-button {
+  background: transparent !important;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-button:disabled svg {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/*!
+* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+*
+* Copyright (c) 2020
+* All Rights Reserved
+* Licensed use only
+*
+* This product is part of the SheepCompany Incorporated
+*
+*
+* LICENSE BY:
+* Artificial Intelligence :: Sheep-AI.com
+* More information: LICENSE.txt
+*
+* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+*/
+
+.bar {
+  border-top: 1px solid #383a3e;
+  color: #ffffff;
+  left: 0;
+  position: fixed;
+  right: 0;
+  width: 100vw;
+}
+
+.bar-top {
+  background-color: rgba(5, 4, 15, 0.65);
+  border-bottom: 1px solid #383a3e;
+  font-size: 120%;
+  line-height: 100%;
+  padding: 10px 0 10px 15px;
+}
+
+.bar-item {
+  background-color: rgba(5, 4, 15, 0.65);
+  border-bottom: 1px solid #383a3e;
+  padding: 5px 10px;
+}
+
+.bar-footer {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.bar-footer .company_name {
+  color: #6c757d;
+  text-transform: uppercase;
+}
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.network-alert {
+  bottom: calc(60px + var(--sab));
+  left: 50%;
+  position: absolute;
+  z-index: 1020;
+}
+
+.network-alert > .content {
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.12);
+  color: white;
+  font-size: 90%;
+  font-weight: bold;
+  left: -50%;
+  padding: 3px 15px;
+  position: relative;
+}
+
+.network-alert > .content-connected {
+  background: #46c93a;
+}
+
+.network-alert > .content-disconnected {
+  background: #ff4757;
+}
+
+/*!
+ *   Import the specific pages styles
+ */
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.signin-apple {
+  display: block;
+  font-size: 85% !important;
+  height: 43px;
+  width: 100%;
+}
+
+.signin-apple div {
+  border: .5px solid white !important;
+  border-radius: 5px !important;
+  max-width: 100%;
+  min-width: 100% !important;
+}
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.mute-button {
+  display: block;
+  font-size: 85% !important;
+  height: 43px;
+  width: 100%;
+}
+
+.auth-wrapper {
+  max-height: 30px;
+  max-width: 450px;
+  transition: max-height 1s ease-out;
+  width: 100%;
+}
+
+.auth-wrapper.swipe-up {
+  height: 500px;
+  max-height: 800px;
+  transition: max-height 1s ease-in;
+}
+
+.auth-wrapper .auth-logo {
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 200;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.auth-wrapper .auth-logo strong {
+  font-weight: 600;
+}
+
+.auth-wrapper .auth-content .btn-outline-white {
+  background: none !important;
+  border: 1.5px solid #ffffff !important;
+  border-radius: 5px !important;
+  transition: background-color .3s linear;
+}
+
+.auth-wrapper .auth-content .btn-outline-white:hover {
+  background: rgba(255, 255, 255, 0.85) !important;
+  color: #1a1f35 !important;
+  transition: background-color .3s linear;
+}
+
+.auth-wrapper .auth-content .el-input__inner {
+  border: 1.5px solid white !important;
+  border-radius: 5px !important;
+  color: white !important;
+}
+
+.auth-wrapper .auth-content .el-input__inner::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.auth-wrapper .auth-content .el-input__inner:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.auth-wrapper .auth-content .el-input__inner::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.auth-wrapper .auth-content .el-input__inner::placeholder {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.auth-wrapper .auth-footer {
+  color: #6c757d;
+}
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+/*!
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ *
+ * Copyright (c) 2020
+ * All Rights Reserved
+ * Licensed use only
+ *
+ * This product is part of the SheepCompany Incorporated
+ *
+ *
+ * LICENSE BY:
+ * Artificial Intelligence :: Sheep-AI.com
+ * More information: LICENSE.txt
+ *
+ * :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ */
+
+.error {
+  line-height: 1.4;
+  margin: auto;
+  max-width: 520px;
+  text-align: center;
+  width: 100%;
+}
+
+.error .error-emoji {
+  height: 140px;
+}
+
+.error .error-emoji h1 {
+  font-size: 190px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.error .error-emoji h1 > span {
+  background-size: cover;
+  display: inline-block;
+  height: 130px;
+  transform: scale(1.4);
+  width: 130px;
+  z-index: -1;
+}
+
+.error-404 h1 > span {
+  background-image: url("/../../assets/img/emoji-404.png") !important;
+}
+
+.error-500 h1 > span {
+  background-image: url("/../../assets/img/emoji-500.png") !important;
+}
+
+.error-503 h1 > span {
+  background-image: url("/../../assets/img/emoji-503.png") !important;
+  height: 165px !important;
+  transform: scale(1);
+  width: 165px !important;
+}
+
+.error h2 {
+  font-size: 27px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.error p {
+  color: #a7a7a7;
+  font-weight: 300;
+}
+
+.error a:hover {
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 767px) {
+  .error .error-emoji {
+    height: 115px;
+  }
+
+  .error .error-emoji h1 {
+    font-size: 86px;
+  }
+
+  .error .error-emoji h1 > span {
+    height: 86px;
+    width: 86px;
+  }
+}
+
