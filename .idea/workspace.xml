@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eb647c1-a442-43e9-95e8-526cd50d3427" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/api_auth_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api_auth_app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -235,7 +237,6 @@
       <workItem from="1594757023788" duration="411000" />
       <workItem from="1594757454344" duration="10456000" />
       <workItem from="1594791318957" duration="1493000" />
-      <workItem from="1594793005924" duration="164000" />
     </task>
     <servers />
   </component>
@@ -243,10 +244,6 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="160" key="#Deployment" timestamp="1594793053782">
-      <screen x="0" y="25" width="1680" height="946" />
-    </state>
-    <state x="440" y="160" key="#Deployment/0.25.1680.946@0.25.1680.946" timestamp="1594793053782" />
     <state x="552" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586391726642">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
