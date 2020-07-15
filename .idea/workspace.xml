@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4eb647c1-a442-43e9-95e8-526cd50d3427" name="Default Changelist" comment="" />
+    <list default="true" id="4eb647c1-a442-43e9-95e8-526cd50d3427" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/api_auth_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api_auth_app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,6 +159,20 @@
       <path value="$PROJECT_DIR$/vendor/laravel/passport" />
       <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/goldspecdigital/laravel-eloquent-uuid" />
+      <path value="$PROJECT_DIR$/vendor/tymon/jwt-auth" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/bcmath_compat" />
+      <path value="$PROJECT_DIR$/vendor/laravel/telescope" />
+      <path value="$PROJECT_DIR$/vendor/laravel/slack-notification-channel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/vendor/moontoast/math" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
     </include_path>
   </component>
   <component name="ProjectId" id="1aHTKdcBVQy1zJRGcdVoN7hy6mb" />
@@ -218,6 +236,7 @@
       <workItem from="1594756803909" duration="37000" />
       <workItem from="1594757023788" duration="411000" />
       <workItem from="1594757454344" duration="10456000" />
+      <workItem from="1594791318957" duration="1493000" />
     </task>
     <servers />
   </component>
@@ -237,34 +256,42 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="299" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1586392354023" />
-    <state width="1127" height="249" key="GridCell.Tab.0.bottom" timestamp="1594768400612">
-      <screen x="0" y="25" width="1680" height="940" />
+    <state width="1127" height="249" key="GridCell.Tab.0.bottom" timestamp="1594792892918">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="796" height="286" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.1080.746@0.0.1680.1050" timestamp="1594754642276" />
+    <state width="1127" height="249" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594792892918" />
     <state width="1293" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586523328655" />
     <state width="796" height="286" key="GridCell.Tab.0.bottom/0.25.1680.1025/1680.25.1016.663@0.25.1680.1025" timestamp="1594755512609" />
     <state width="1127" height="249" key="GridCell.Tab.0.bottom/0.25.1680.940@0.25.1680.940" timestamp="1594768400612" />
-    <state width="1127" height="249" key="GridCell.Tab.0.center" timestamp="1594768400611">
-      <screen x="0" y="25" width="1680" height="940" />
+    <state width="1127" height="249" key="GridCell.Tab.0.bottom/0.25.1680.941@0.25.1680.941" timestamp="1594792272833" />
+    <state width="1127" height="249" key="GridCell.Tab.0.center" timestamp="1594792892916">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="796" height="286" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.1080.746@0.0.1680.1050" timestamp="1594754642272" />
+    <state width="1127" height="249" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594792892916" />
     <state width="1293" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586523328655" />
     <state width="796" height="286" key="GridCell.Tab.0.center/0.25.1680.1025/1680.25.1016.663@0.25.1680.1025" timestamp="1594755512607" />
     <state width="1127" height="249" key="GridCell.Tab.0.center/0.25.1680.940@0.25.1680.940" timestamp="1594768400611" />
-    <state width="1127" height="249" key="GridCell.Tab.0.left" timestamp="1594768400609">
-      <screen x="0" y="25" width="1680" height="940" />
+    <state width="1127" height="249" key="GridCell.Tab.0.center/0.25.1680.941@0.25.1680.941" timestamp="1594792272832" />
+    <state width="1127" height="249" key="GridCell.Tab.0.left" timestamp="1594792892915">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="796" height="286" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.1080.746@0.0.1680.1050" timestamp="1594754642270" />
+    <state width="1127" height="249" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594792892915" />
     <state width="1293" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586523328655" />
     <state width="796" height="286" key="GridCell.Tab.0.left/0.25.1680.1025/1680.25.1016.663@0.25.1680.1025" timestamp="1594755512606" />
     <state width="1127" height="249" key="GridCell.Tab.0.left/0.25.1680.940@0.25.1680.940" timestamp="1594768400609" />
-    <state width="1127" height="249" key="GridCell.Tab.0.right" timestamp="1594768400611">
-      <screen x="0" y="25" width="1680" height="940" />
+    <state width="1127" height="249" key="GridCell.Tab.0.left/0.25.1680.941@0.25.1680.941" timestamp="1594792272831" />
+    <state width="1127" height="249" key="GridCell.Tab.0.right" timestamp="1594792892917">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="796" height="286" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.1080.746@0.0.1680.1050" timestamp="1594754642274" />
+    <state width="1127" height="249" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594792892917" />
     <state width="1293" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586523328655" />
     <state width="796" height="286" key="GridCell.Tab.0.right/0.25.1680.1025/1680.25.1016.663@0.25.1680.1025" timestamp="1594755512608" />
     <state width="1127" height="249" key="GridCell.Tab.0.right/0.25.1680.940@0.25.1680.940" timestamp="1594768400611" />
+    <state width="1127" height="249" key="GridCell.Tab.0.right/0.25.1680.941@0.25.1680.941" timestamp="1594792272833" />
     <state x="405" y="187" key="SettingsEditor" timestamp="1594766234360">
       <screen x="0" y="25" width="1680" height="940" />
     </state>
@@ -280,9 +307,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/layouts/AI.blade.php</url>
-          <line>18</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/app/Providers/TelescopeServiceProvider.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
